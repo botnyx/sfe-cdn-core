@@ -4,7 +4,7 @@ namespace Botnyx\Sfe\Cdn\Core\Setup;
 
 
 
-class Cdn{
+class Cdn {
 
   function __construct( $vendorDir){
 		$this->vendorDir = $vendorDir;
