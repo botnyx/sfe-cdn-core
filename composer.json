@@ -1,0 +1,26 @@
+{
+    "name": "botnyx/sfe-cdn-core",
+    "description": "sfe cdn core components .",
+    "keywords": ["sfe", "composer", "library"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jerry Hopper",
+            "email": "hopper.jerry@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		    "php": ">=7.1",
+        "botnyx/sfe-shared-core": "^0.1"
+       
+    },
+    "require-dev": {
+		    "phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Botnyx\\Sfe\\Cdn\\": "src/"
+        }
+    }
+}
